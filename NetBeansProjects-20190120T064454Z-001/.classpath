@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="NetBeansProjects/array/src"/>
+	<classpathentry kind="src" path="NetBeansProjects/class/src"/>
+	<classpathentry kind="src" path="NetBeansProjects/linkedlist/src"/>
+	<classpathentry kind="src" path="NetBeansProjects/map/src"/>
+	<classpathentry kind="src" path="NetBeansProjects/methodoverloading/src"/>
+	<classpathentry kind="src" path="NetBeansProjects/pratice/src"/>
+	<classpathentry kind="src" path="NetBeansProjects/queue/src"/>
+	<classpathentry kind="src" path="NetBeansProjects/sample/src"/>
+	<classpathentry kind="src" path="NetBeansProjects/set/src"/>
+	<classpathentry kind="src" path="NetBeansProjects/stack/src"/>
+	<classpathentry kind="src" path="NetBeansProjects/strings/src"/>
+	<classpathentry kind="src" path="inheritance"/>
+	<classpathentry kind="output" path="NetBeansProjects/array/build/classes"/>
+</classpath>
