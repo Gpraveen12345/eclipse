@@ -13,7 +13,6 @@ public class comparatorsss {
 		a.add("learn");
 		Collections.sort(a,new Comparator<String>() {
 			public int compare(String o1, String o2) {
-				
 				return 0;
 			}
 			

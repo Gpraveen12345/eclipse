@@ -18,17 +18,24 @@ public class Map {
     public static void main(String[] args) {
         // TODO code application logic here
         HashMap<Integer,Integer> a =new HashMap<Integer,Integer>();
+        TreeMap<Integer,Integer> b=new TreeMap<Integer,Integer>();
+        b.put(2,5);
+        b.put(1,5);
+        b.put(6,8);
+        System.out.println(b);
         a.put(1,0);
         a.put(2,1);
-        a.put(3,2);
-        if(a.containsKey(1))//if the element is already present we can increment the value
-        {
-        	int v=(Integer)a.get(1);
+        a.put(3,5);
+        if(a.containsValue(5))//if the element is already present we can increment the value
+        {//a.containsKey()
+        	int v=(Integer)a.get(2);
+        	System.out.println("fdf"+" "+v);
         	a.put(1,++v);
         }
+        //Collections.max(a);
         int[] values=new int[a.size()];
         int i=0;
-        for(Object m:a.keySet())
+        for(Integer m:a.keySet())
         {
             System.out.println(m+" "+a.get(m));
             values[i]=(int)a.get(m);
@@ -45,7 +52,7 @@ public class Map {
      		//String[] key = a.keySet().toArray();
 
 
-        //System.out.println((String)a.get(3));//this is uswed to get the value casting is required because it returns object
+        //System.out.println((String)a.get(3));//this is used to get the value casting is required because it returns object
         /*for(Map.Entry m:a.entrySet()){  
    System.out.println(m.getKey()+" "+m.getValue());  
   }  */

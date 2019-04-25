@@ -27,10 +27,14 @@ public class Queue {
         Queue a=new Queue();
         PriorityQueue q=new PriorityQueue();
         q.add(a);
+        q.isEmpty();
+        q.addAll(q);
         for(Object z :q)
         {
         System.out.print(z);
         }
+        Stack<Integer> s=new Stack<Integer>();
+        s.push(10);
         
     }
 

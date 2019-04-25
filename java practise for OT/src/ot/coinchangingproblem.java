@@ -12,15 +12,13 @@ public class coinchangingproblem {
 		dp[0]=0;
 		for(int j=0;j<arr.length;j++)
 		{
-			for(int i=0;i<=n;i++)
+			for(int i=arr[j];i<=n;i++)
 			{
-			if(i>=arr[j])
-			{
+	
 				if(dp[i-arr[j]]+1<dp[i])
 				{
 					dp[i]=dp[i-arr[j]]+1;
 				}
-			}
 		}
 		}
 		for(int i=0;i<n+1;i++)

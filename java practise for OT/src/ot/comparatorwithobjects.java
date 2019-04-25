@@ -18,7 +18,7 @@ class employee
 	}
 }
 public class comparatorwithobjects {
-	public static void main(String[] args)
+	public static void main(String[] args) 
 	{
 		employee[] b=new employee[5];
 		//ArrayList<employee> list=new ArrayList<employee>();

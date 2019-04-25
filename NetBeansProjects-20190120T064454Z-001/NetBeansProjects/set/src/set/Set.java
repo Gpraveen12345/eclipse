@@ -12,20 +12,42 @@ public class Set {
 HashSet setB = new HashSet();
 LinkedHashSet setC = new LinkedHashSet();
 TreeSet setD = new TreeSet();
-        LinkedHashSet<Integer> sa=new LinkedHashSet();
+      HashSet<Integer> sa=new HashSet();
         sa.add(1);
         String[] s={"pa","re"};
         sa.add(2);
+        //Collections.max(sa);
+       // System.out.println(((List) sa).get(0));
        // sa.add("praveen");
-       ArrayList b=new ArrayList(sa);
-
-        //System.out.print(s1[0]);
-       for(Object a:b)
-       {
-          
-           System.out.print((int)a+1+" ");
-       }
+//       ArrayList<Integer> b=new ArrayList(sa);
+//       //System.out.println(b.get(0));
+//
+//        //System.out.print(s1[0]);
+//       for(Object a:b)
+//       {
+//          
+//           System.out.print((int)a+1+" ");
+//       }
        //System.out.print(sa);
+       TreeSet<String> hset = new TreeSet();
+       
+       //add elements to HashSet
+       hset.add("Steve");
+       hset.add("Matt");
+       hset.add("Govinda");
+       hset.add("John");
+       hset.add("Tommy");
+       
+      System.out.println(hset.ceiling("A"));
+      
+       // Displaying HashSet elements
+       System.out.println("HashSet contains: "+ hset);
+   
+       // Creating a List of HashSet elements
+       List<String> list = new ArrayList<String>(hset);
+   
+       // Displaying ArrayList elements
+       System.out.println("ArrayList contains: "+ list);
         
     }   
 }
